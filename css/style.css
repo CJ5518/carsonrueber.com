@@ -1,3 +1,32 @@
 body {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: grid;
+	grid-template-areas: 
+		"top"
+		"mid"
+		"bot";
+}
+
+#index-div {
+	display: grid;
+	grid-template-areas:
+		"pic content";
+	grid-template-columns: 1fr 2fr;
+}
+
+.mid {
+	grid-area: mid;
+}
+
+.pic {
+	grid-area: pic;
+}
+
+.content {
+	grid-area: content;
+}
+
+header {
+	grid-area: top;
+	text-align: center;
 }
