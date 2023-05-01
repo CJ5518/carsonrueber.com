@@ -7,6 +7,21 @@ body {
 		"bot";
 	margin: 0px auto;
 	max-width: 1080px;
+	line-height: 1.6;
+	font-size: 18;
+}
+
+a {
+	text-decoration: none;
+}
+
+.projectBox {
+	padding: 10px;
+	width: 0%;
+	min-width: fit-content;
+	border: 2px solid #000000;
+	margin-top: 100px;
+	margin-bottom: 10px;
 }
 
 #index-div {
@@ -19,6 +34,7 @@ body {
 #myFaceImg {
 	border-radius: 100%;
 	max-width: 200px;
+	max-height: 200px;
 	display: flex;
 }
 
@@ -40,4 +56,8 @@ body {
 header {
 	grid-area: top;
 	text-align: center;
+}
+
+.projectMainImage {
+	max-width: 500px;
 }
