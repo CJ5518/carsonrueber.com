@@ -57,6 +57,10 @@ header {
 	grid-area: top;
 	text-align: center;
 }
+footer {
+	grid-area: bot;
+	text-align: center;
+}
 
 .projectMainImage {
 	max-width: 500px;
