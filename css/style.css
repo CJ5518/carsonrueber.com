@@ -1,67 +1,29 @@
+:root {
+	--main-bg-color: teal;
+}
+
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	display: grid;
-	grid-template-areas: 
-		"top"
-		"mid"
-		"bot";
 	margin: 0px auto;
-	max-width: 1080px;
-	line-height: 1.6;
-	font-size: 18;
+	max-width: 50em;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+img {
+	max-width: 100%;
+	max-height: auto;
 }
 
 a {
 	text-decoration: none;
 }
 
-.projectBox {
-	padding: 10px;
-	width: 0%;
-	min-width: fit-content;
-	border: 2px solid #000000;
-	margin-top: 100px;
-	margin-bottom: 10px;
+p {
+	text-align: start;
 }
 
-#index-div {
-	display: grid;
-	grid-template-areas:
-		"pic content";
-	grid-template-columns: 1fr 6fr;
-}
-
-#myFaceImg {
-	border-radius: 100%;
-	max-width: 200px;
-	max-height: 200px;
-	display: flex;
-}
-
-.mid {
-	grid-area: mid;
-}
-
-#picSection {
-	grid-area: pic;
-	justify-content: right;
-	margin: 0px 40px;
-	display: flex;
-}
-
-.content {
-	grid-area: content;
-}
-
-header {
-	grid-area: top;
+/* .centered {
 	text-align: center;
 }
-footer {
-	grid-area: bot;
-	text-align: center;
-}
-
-.projectMainImage {
-	max-width: 500px;
-}
+*/

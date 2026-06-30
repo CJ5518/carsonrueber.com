@@ -2,10 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{page.title}}</title>
+    <title>CarsonRueber's Site</title>
 	<link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-	{{content}}
+    <center>
+      {% include header.html %}
+      {{content}}
+      {% include footer.html %}
+    </center>
   </body>
 </html>
